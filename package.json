@@ -1,9 +1,11 @@
 {
     "name": "ngxt",
-    "description": "Compiles es6 modules into Angular modules",
+    "version": "0.0.1",
+    "description": "ES6 Angular build system.",
     "preferGlobal": true,
-    "scripts": {
-        "start": "babel-node test.js"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattbalmer/ngxt.git"
     },
     "bin": {
         "ngxt": "./bin/ngxt.js"
